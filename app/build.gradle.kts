@@ -56,4 +56,8 @@ dependencies {
     implementation(libs.androidx.lifecycle.livedata)
     // Lifecycles only (without ViewModel or LiveData)
     implementation(libs.androidx.lifecycle.runtime)
+
+    //Koin
+    implementation(libs.insert.koin.koin.android)
+
 }

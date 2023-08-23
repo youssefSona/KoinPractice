@@ -1,5 +1,6 @@
 [versions]
 agp = "8.2.0-alpha05"
+koin-android = "3.4.3"
 kotlin = "1.8.0"
 core-ktx = "1.10.1"
 junit = "4.13.2"
@@ -15,6 +16,7 @@ androidx-lifecycle-livedata = { module = "androidx.lifecycle:lifecycle-livedata"
 androidx-lifecycle-runtime = { module = "androidx.lifecycle:lifecycle-runtime", version.ref = "lifecycle-viewmodel" }
 androidx-lifecycle-viewmodel = { module = "androidx.lifecycle:lifecycle-viewmodel", version.ref = "lifecycle-viewmodel" }
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
+insert-koin-koin-android = { module = "io.insert-koin:koin-android", version.ref = "koin-android" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-ext-junit" }
 espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-core" }
